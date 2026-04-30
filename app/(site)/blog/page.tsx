@@ -7,7 +7,7 @@ import Reveal from "@/components/Reveal";
 export const metadata = {
   title: "Blog",
   description:
-    "Insights from Upward Physio's clinicians on recovery, performance, prevention, and movement.",
+    "Field notes from DJ Keim, DPT — practical, evidence-led writing on recovery, performance, prevention, and movement.",
 };
 
 function formatDate(iso: string) {
@@ -35,7 +35,7 @@ export default function BlogPage() {
               className="mt-4 max-w-3xl text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-6xl"
               style={{ letterSpacing: "-0.03em" }}
             >
-              Field notes from clinicians who treat real people.
+              Field notes from a clinician who treats real people.
             </h1>
             <p className="mt-6 max-w-2xl text-lg leading-relaxed text-white/75">
               Practical, evidence-led writing on recovery, performance, and how
