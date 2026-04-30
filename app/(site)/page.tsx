@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { ArrowRight, Sparkles } from "lucide-react";
 import ServiceCard, { type ServiceIconName } from "@/components/ServiceCard";
-import TestimonialCarousel from "@/components/TestimonialCarousel";
 import SectionHeading from "@/components/SectionHeading";
 import Reveal from "@/components/Reveal";
 
@@ -61,8 +60,8 @@ const benefits = [
   },
   {
     stat: "DPT",
-    label: "Doctor-level clinicians",
-    description: "Every therapist holds a doctorate. No shortcuts.",
+    label: "Doctor of Physical Therapy",
+    description: "DPT and CSCS — clinical care plus strength expertise.",
   },
 ];
 
@@ -234,17 +233,28 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* TESTIMONIALS */}
+      {/* PHILOSOPHY — replaces the testimonials section until DJ has
+          real client testimonials to share. Fake testimonials for a
+          healthcare practice are not just bad copy, they're a credibility
+          (and arguably ethical) issue. */}
       <section className="bg-gradient-to-b from-white to-light-gray/30 py-24 sm:py-32">
-        <div className="container-wide">
-          <SectionHeading
-            eyebrow="What clients say"
-            title="Results that compound"
-          />
-
-          <div className="mt-16">
-            <TestimonialCarousel />
-          </div>
+        <div className="container-narrow">
+          <Reveal>
+            <div className="text-center">
+              <p className="eyebrow">Philosophy</p>
+              <p
+                className="mx-auto mt-8 max-w-3xl text-2xl font-medium leading-snug text-navy sm:text-3xl lg:text-4xl"
+                style={{ letterSpacing: "-0.02em" }}
+              >
+                &ldquo;The goal isn&apos;t to graduate you from physical therapy.
+                It&apos;s to hand you a body — and an understanding of it —
+                that doesn&apos;t need me anymore.&rdquo;
+              </p>
+              <p className="mt-8 text-sm font-semibold text-primary">
+                — DJ Keim, DPT, CSCS
+              </p>
+            </div>
+          </Reveal>
         </div>
       </section>
 
