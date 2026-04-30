@@ -8,7 +8,6 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        // Brand palette — defined as CSS-friendly names for clarity
         primary: {
           DEFAULT: "#e6661a",
           dark: "#a24116",
