@@ -27,7 +27,7 @@ export const posts: BlogPost[] = [
     date: "2026-04-15",
     readingTime: "6 min read",
     category: "Recovery",
-    author: "Dr. Sarah Mitchell",
+    author: "DJ Keim, DPT",
     coverImage:
       "https://images.unsplash.com/photo-1599447421416-3414500d18a5?w=1200&h=600&fit=crop",
     body: `
@@ -54,7 +54,7 @@ export const posts: BlogPost[] = [
     date: "2026-03-28",
     readingTime: "8 min read",
     category: "Practice",
-    author: "Dr. Marcus Chen",
+    author: "DJ Keim, DPT",
     coverImage:
       "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=1200&h=600&fit=crop",
     body: `
@@ -74,7 +74,7 @@ export const posts: BlogPost[] = [
     date: "2026-03-10",
     readingTime: "7 min read",
     category: "Performance",
-    author: "Dr. Aisha Patel",
+    author: "DJ Keim, DPT",
     coverImage:
       "https://images.unsplash.com/photo-1552674605-db6ffd4facb5?w=1200&h=600&fit=crop",
     body: `
@@ -95,7 +95,7 @@ export const posts: BlogPost[] = [
     date: "2026-02-22",
     readingTime: "5 min read",
     category: "Wellness",
-    author: "Dr. Tom Reyes",
+    author: "DJ Keim, DPT",
     coverImage:
       "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=1200&h=600&fit=crop",
     body: `
