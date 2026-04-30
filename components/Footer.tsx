@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { Mail, Phone, MapPin, Instagram, Facebook, Linkedin } from "lucide-react";
+import { Mail, MapPin, Instagram, Facebook, Linkedin } from "lucide-react";
 
 const footerLinks = {
   Practice: [
@@ -106,24 +106,18 @@ export default function Footer() {
               <li className="flex items-start gap-3">
                 <MapPin className="mt-0.5 h-4 w-4 flex-shrink-0 text-accent-orange" />
                 <span>
-                  123 Wellness Way
+                  Serving the Denver
                   <br />
-                  Miami, FL 33131
+                  metro area
                 </span>
-              </li>
-              <li className="flex items-center gap-3">
-                <Phone className="h-4 w-4 flex-shrink-0 text-accent-orange" />
-                <a href="tel:+13055550100" className="transition-colors hover:text-white">
-                  (305) 555-0100
-                </a>
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="h-4 w-4 flex-shrink-0 text-accent-orange" />
                 <a
-                  href="mailto:hello@upwardphysio.com"
+                  href="mailto:dj@upwardphysio.com"
                   className="transition-colors hover:text-white"
                 >
-                  hello@upwardphysio.com
+                  dj@upwardphysio.com
                 </a>
               </li>
             </ul>
