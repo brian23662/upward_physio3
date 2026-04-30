@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 44" role="img" aria-label="Upward Physio">
+  <title>Upward Physio</title>
+  <g fill="none" stroke-linecap="round">
+    <path d="M6 36 Q22 6 38 36" stroke="#286677" stroke-width="9"/>
+    <path d="M30 36 Q48 -2 66 36" stroke="#e6661a" stroke-width="9"/>
+  </g>
+</svg>

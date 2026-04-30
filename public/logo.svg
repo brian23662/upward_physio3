@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 56" role="img" aria-label="Upward Physio">
+  <title>Upward Physio</title>
+  <g fill="none" stroke-linecap="round">
+    <path d="M6 36 Q22 6 38 36" stroke="#286677" stroke-width="9"/>
+    <path d="M30 36 Q48 -2 66 36" stroke="#e6661a" stroke-width="9"/>
+  </g>
+  <text x="84" y="32" font-family="system-ui,-apple-system,'Segoe UI',Roboto,sans-serif" font-size="26" font-weight="700" fill="#143646" letter-spacing="-0.5">Upward</text>
+  <text x="84" y="50" font-family="system-ui,-apple-system,'Segoe UI',Roboto,sans-serif" font-size="16" font-weight="400" fill="#57939e" letter-spacing="-0.2">Physio</text>
+</svg>
