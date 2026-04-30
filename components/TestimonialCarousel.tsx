@@ -1,5 +1,15 @@
 "use client";
 
+/**
+ * Testimonial carousel — currently unused on the live site.
+ *
+ * The home page used to render this with placeholder testimonials, but
+ * fictional testimonials for a healthcare practice are a credibility
+ * problem. Once DJ has 2-3 real client testimonials, replace the
+ * `testimonials` array below and re-import this component on the home
+ * page (between the "Why Upward" and CTA sections).
+ */
+
 import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Quote, ChevronLeft, ChevronRight } from "lucide-react";

@@ -82,7 +82,7 @@ export default function ContactForm() {
       </div>
 
       <div className="grid gap-5 sm:grid-cols-2">
-        <Field label="Phone" name="phone" type="tel" placeholder="(305) 555-0100" />
+        <Field label="Phone" name="phone" type="tel" placeholder="(303) 555-0100" />
 
         <div>
           <label
