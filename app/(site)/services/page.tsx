@@ -14,7 +14,7 @@ import Reveal from "@/components/Reveal";
 export const metadata = {
   title: "Services",
   description:
-    "Concierge physical therapy, orthopedic rehab, performance training, injury prevention, and workplace wellness — all delivered 1:1 by doctors of physical therapy.",
+    "Concierge physical therapy, orthopedic rehab, performance training, injury prevention, and workplace wellness — all delivered 1:1 by DJ Keim, DPT, CSCS.",
 };
 
 interface Service {
