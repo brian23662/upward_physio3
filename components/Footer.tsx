@@ -28,9 +28,9 @@ export default function Footer() {
               <Image
                 src="/logo-light.svg"
                 alt="Upward Physio"
-                width={170}
-                height={42}
-                className="h-10 w-auto"
+                width={163}
+                height={120}
+                className="h-[120px] w-auto"
               />
             </Link>
             <p className="mt-6 max-w-sm text-sm leading-relaxed text-white/70">

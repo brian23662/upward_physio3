@@ -55,7 +55,7 @@ export default function Navbar() {
           <Image
             src="/logo.svg"
             alt="Upward Physio"
-            width={86}
+            width={87}
             height={64}
             priority
             className="h-16 w-auto"
@@ -107,7 +107,7 @@ export default function Navbar() {
               <Image
                 src="/logo-light.svg"
                 alt="Upward Physio"
-                width={86}
+                width={87}
                 height={64}
                 className="h-16 w-auto"
               />
