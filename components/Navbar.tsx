@@ -55,10 +55,10 @@ export default function Navbar() {
           <Image
             src="/logo.svg"
             alt="Upward Physio"
-            width={76}
-            height={56}
+            width={150}
+            height={38}
             priority
-            className="h-14 w-auto"
+            className="h-9 w-auto"
           />
         </Link>
 
@@ -107,9 +107,9 @@ export default function Navbar() {
               <Image
                 src="/logo-light.svg"
                 alt="Upward Physio"
-                width={76}
-                height={56}
-                className="h-14 w-auto"
+                width={150}
+                height={38}
+                className="h-9 w-auto"
               />
               <button
                 type="button"
