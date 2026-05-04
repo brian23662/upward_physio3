@@ -19,8 +19,6 @@ export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
 
-  // Lightly track scroll so we can deepen the shadow once the user is past
-  // the hero — adds a hint of depth without changing the navbar's identity.
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 12);
     handleScroll();
@@ -28,7 +26,6 @@ export default function Navbar() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  // Lock body scroll when mobile menu is open
   useEffect(() => {
     document.body.style.overflow = mobileOpen ? "hidden" : "";
     return () => {
@@ -55,14 +52,13 @@ export default function Navbar() {
           <Image
             src="/logo.svg"
             alt="Upward Physio"
-            width={54}
+            width={124}
             height={72}
             priority
             className="h-[72px] w-auto"
           />
         </Link>
 
-        {/* Desktop nav */}
         <ul className="hidden items-center gap-8 lg:flex">
           {navLinks.map((link) => (
             <li key={link.href}>
@@ -82,7 +78,6 @@ export default function Navbar() {
           </Link>
         </div>
 
-        {/* Mobile toggle */}
         <button
           type="button"
           onClick={() => setMobileOpen(true)}
@@ -93,7 +88,6 @@ export default function Navbar() {
         </button>
       </nav>
 
-      {/* Mobile menu overlay */}
       <AnimatePresence>
         {mobileOpen && (
           <motion.div
@@ -107,7 +101,7 @@ export default function Navbar() {
               <Image
                 src="/logo-light.svg"
                 alt="Upward Physio"
-                width={54}
+                width={124}
                 height={72}
                 className="h-[72px] w-auto"
               />
